@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/**
+ *
+ * @index
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.header{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 600px;
+    height: 200px;
+    display: none;
+}
+
+.header img{
+    width: 150px;
+    height: 150px;
+    margin: 25px 40px 25px 40px;
+    float: left;
+}
+
+.header h1{
+    line-height: 200px;
+    font-size: 55px;
+    float: left;
+}
+
+.link{
+    position: absolute;
+    left: 160px;
+    top: 400px;
+    width: 500px;
+    height: 100px;
+    z-index: 1;
+    display: none;
+}
+
+.toClassify{
+    background-image: url(source/classify.png);
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 101px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.toTrain{
+    background-image: url(source/train.png);
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    width: 190px;
+    height: 101px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.toClassify:hover , .toTrain:hover{
+    background-position: 0px -101px;
+}
+
+.decoration div{
+    display: none;
+}
+
+.green{
+    position: absolute;
+    -webkit-transform: rotate(35deg);;
+       -moz-transform: rotate(35deg);;
+        -ms-transform: rotate(35deg);;
+         -o-transform: rotate(35deg);;
+            transform: rotate(35deg);;
+    background-color: #9BEC74;
+    width: 150px;
+    height: 200%;
+    left: 650px;
+    top: -300px;
+    float: left;
+}
+
+.blue{
+    position: absolute;
+    -webkit-transform: rotate(35deg);;
+       -moz-transform: rotate(35deg);;
+        -ms-transform: rotate(35deg);;
+         -o-transform: rotate(35deg);;
+            transform: rotate(35deg);;
+    background-color: #4B97DC;
+    width: 150px;
+    height: 200%;
+    left: 830px;
+    top: -300px;
+    float: left;
+}
+
+.orange{
+    position: absolute;
+    -webkit-transform: rotate(35deg);;
+       -moz-transform: rotate(35deg);;
+        -ms-transform: rotate(35deg);;
+         -o-transform: rotate(35deg);;
+            transform: rotate(35deg);;
+    background-color: #ED9747;
+    width: 150px;
+    height: 200%;
+    left: 1010px;
+    top: -300px;
+    float: left;
+}
+
+.red{
+    position: absolute;
+    -webkit-transform: rotate(35deg);;
+       -moz-transform: rotate(35deg);;
+        -ms-transform: rotate(35deg);;
+         -o-transform: rotate(35deg);;
+            transform: rotate(35deg);;
+    background-color: #F6434A;
+    width: 150px;
+    height: 200%;
+    left: 1190px;
+    top: -300px;
+    float: left;
+}
