@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+body{
+    height: 100%;
+    overflow: hidden;
+}
+
 .wrapper{
     margin: 80px auto;
     width: 500px;
